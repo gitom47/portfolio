@@ -1,0 +1,66 @@
+.hero {
+    background-color: #000000;
+    width: 100%; height: 100vh;
+    // display: flex; justify-content: center; align-items: center;
+    position: relative;
+    #hero-title {
+        // background-color: green;
+        width: 77%; height: auto;
+        font-size: 2em;
+        font-family: "Nunito-Regular", sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        // display: flex; flex-direction: column; justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        p {
+            font-family: "Nunito-Regular", sans-serif;
+            font-size: 3em;
+            color: rgba(255,255,255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 900;
+        }
+        h1 {
+            font-family: "playfairDisplay-blackItalic", sans-serif;
+            color: #ffffff;
+            text-align: right;
+            text-transform: capitalize;
+            margin-top: -0.7em;
+        }
+    }
+    #hero-news {
+        // background-color: aqua;
+        
+        width: auto; height: auto;
+        
+        color: white;
+        font-size: 1.2em;
+        font-family: "Nunito-Regular", sans-serif;
+        
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        div {
+            // background-color: green;
+            
+            width: auto; height: auto;
+            
+            text-align: center;
+            text-transform: uppercase;
+            
+            p:first-child {
+                width: 100%;
+                background-color: red;
+                font-size: 1.3em;
+            }
+            p:last-child {
+                font-size: 2em;
+            }
+        }
+    }
+}

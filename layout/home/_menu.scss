@@ -1,0 +1,20 @@
+#menu {
+    width: 10%; height: 100vh;
+    background-color: #000000;
+    font-family: "nunito-regular", sans-serif;
+    nav {
+        // background-color: red;
+        width: 70%; height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        li {
+            // background-color: blue;
+            margin: 15px;
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+}
