@@ -1,0 +1,20 @@
+@import '../../base/reset';
+@import '../../base/fonts/fonts';
+
+@import '../../abstracts/animations';
+
+@import '../../layout/web/title';
+@import '../../layout/web/projetsWeb';
+
+
+
+main {
+
+    background: #010101;
+    background: -webkit-radial-gradient(center, #010101, #1F1F1F);
+    background: -moz-radial-gradient(center, #010101, #1F1F1F);
+    background: radial-gradient(ellipse at center, #010101, #1F1F1F);
+    
+
+    height: auto;
+}

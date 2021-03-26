@@ -1,0 +1,30 @@
+.zone-title {
+    // background-color: aqua;
+    height: 100vh;
+    position: relative;
+    
+    
+    
+    font-family: 'Nunito-Regular', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    
+    .zone-title-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h1 {
+            
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+        p {
+            margin-top: 2rem;
+            
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("base/fonts/nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "playfairDisplay-blackItalic";
+  src: url("base/fonts/playfair-display/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "niageng";
+  src: url("base/fonts/niageng/niageng.ttf") format("truetype");
+}
+
+@-webkit-keyframes disparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.zone-title {
+  height: 100vh;
+  position: relative;
+  font-family: 'Nunito-Regular', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.zone-title .zone-title-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.zone-title .zone-title-center h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.zone-title .zone-title-center p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#zone-projets {
+  width: 100%;
+  height: auto;
+  margin-top: -6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#zone-projets .projets-web {
+  background-color: blue;
+  font-family: 'Nunito-Regular', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+#zone-projets .projets-web p {
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 5px 6px #000000;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  word-spacing: 0px;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+#zone-projets .projets-web img {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#zone-projets #web-records {
+  background-image: url(../../img/img-web/violet.jpg);
+  background-size: cover;
+}
+
+main {
+  background: #010101;
+  background: radial-gradient(ellipse at center, #010101, #1F1F1F);
+  height: auto;
+}
+/*# sourceMappingURL=web.css.map */

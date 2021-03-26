@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("base/fonts/nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "playfairDisplay-blackItalic";
+  src: url("base/fonts/playfair-display/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "niageng";
+  src: url("base/fonts/niageng/niageng.ttf") format("truetype");
+}
+
+.hero {
+  background-color: aqua;
+  background-image: url(../../img/img-web/violet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 60vh;
+}
+
+.hero .hero-title {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.hero .hero-title p {
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: "niageng", serif;
+}
+
+.hero .hero-title p sup {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.hero .hero-site {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+.hero .hero-site img {
+  width: 50%;
+  height: auto;
+}
+
+.steps {
+  background-color: #292A2C;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+}
+
+.steps .steps-goals {
+  background-color: red;
+  width: 100%;
+  height: 400px;
+}
+/*# sourceMappingURL=records.css.map */

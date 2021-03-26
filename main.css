@@ -62,6 +62,11 @@ table {
   src: url("base/fonts/playfair-display/PlayfairDisplay-BlackItalic.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "niageng";
+  src: url("base/fonts/niageng/niageng.ttf") format("truetype");
+}
+
 @-webkit-keyframes disparition {
   0% {
     opacity: 0;
